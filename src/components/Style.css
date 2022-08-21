@@ -1,0 +1,52 @@
+/* select element */
+.form-container{
+    border:1px solid black;
+}
+.red-star{
+    color:red;
+}
+#fullName,#dateBirth,#sex,#mobile,#country,#govtId,#guardianDetails,#email,
+#emergencyContact,#address,#state,#city,#country,#occupation,#religion,
+#maritalStatus,#bloodGroup,#nationality,#pincode{
+    margin-left: 5px;
+}
+
+.sex-container{
+    margin-left:130px;
+}
+.pincode-container{
+    margin-left:130px;
+}
+#sex,#city{
+    width:11rem; 
+}
+#bloodGroup{
+    width:6rem; 
+}
+.city-container{
+    margin-left:270px;
+}
+.select-container .placeholder{
+    color:grey;
+}
+
+.emergency-contact{
+    width:11rem;
+}
+
+.btn-submit{
+    width:10%;
+    height: 40px;
+    background-color: green;
+    color:white;
+}
+.btn-cancel{
+    width:10%;
+    height: 40px;
+    border:1px solid red;
+    color:red;
+}
+
+.error-color{
+    color: red;
+}
